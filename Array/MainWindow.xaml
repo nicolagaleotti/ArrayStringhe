@@ -5,8 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Array"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="326" Width="394">
     <Grid>
-        
+        <TextBox Name="txtStringa" HorizontalAlignment="Left" Height="35" Margin="40,60,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="130" FontSize="16"/>
+        <Label Content="Inserisci stringa:" HorizontalAlignment="Left" Margin="40,30,0,0" VerticalAlignment="Top" Width="130" Height="30" FontSize="16"/>
+        <Label Name="lblResult" Content="" HorizontalAlignment="Left" Margin="40,129,0,0" VerticalAlignment="Top" Width="130" Height="126" FontSize="16"/>
+        <Button Name="btnInserisci" Content="Inserisci" HorizontalAlignment="Left" Margin="225,60,0,0" VerticalAlignment="Top" Width="95" Height="35" FontSize="18" FontWeight="Bold" Click="btnInserisci_Click" />
+        <Button Name="btnStampa" Content="Stampa" HorizontalAlignment="Left" Margin="225,145,0,0" VerticalAlignment="Top" Width="95" Height="35" FontSize="18" FontWeight="Bold" Click="btnStampa_Click"/>
+        <Button Name="btnPubblica" Content="Pubblica" HorizontalAlignment="Left" Margin="225,205,0,0" VerticalAlignment="Top" Width="95" Height="35" FontSize="18" FontWeight="Bold" Click="btnPubblica_Click"/>
     </Grid>
 </Window>
